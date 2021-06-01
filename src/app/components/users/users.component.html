@@ -1,0 +1,8 @@
+<!--<div *ngFor="let u of users">-->
+<!--  {{u.id}}-->
+<!--  {{u.name}}-->
+<!--</div>-->
+<app-user [user]="u" *ngFor="let u of users"></app-user>
+<hr>
+<router-outlet></router-outlet>
+<hr>
