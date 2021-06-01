@@ -6,7 +6,7 @@ import {RouterModule, Routes} from "@angular/router";
 import {AppComponent} from './app.component';
 import {CommentsComponent, PostsComponent, UserComponent, UserDetailsComponent, UsersComponent} from './components';
 
-24:00
+  24:00
 let routes: Routes = [
   {
     //render into app:
