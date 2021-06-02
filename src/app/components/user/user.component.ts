@@ -22,7 +22,7 @@ export class UserComponent implements OnInit {
   goToDetails(): void {
     // this.router.navigate(['users', this.user.id]); // users/:id
     // this.activatedRoute.url.subscribe(value => console.log(value));
-    this.router.navigate([this.user.id],{relativeTo: this.activatedRoute}); // users/:id
+    this.router.navigate([this.user.id], {relativeTo: this.activatedRoute, state: this.user}); // users/:id
 
   }
 }
